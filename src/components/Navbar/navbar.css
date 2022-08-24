@@ -1,0 +1,15 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+}
+
+.navbar-left, .navbar-right, .nav-search, .nav-user-options{
+  display: flex;
+}
+
+.user-avatar{
+  width:30px;
+  height:30px;
+  border-radius: 100%;
+}
